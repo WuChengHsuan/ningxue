@@ -10,11 +10,11 @@ from googletrans import Translator
 from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
-ningxue = LINETCR.LINE()
+ningxue = LINETCR.LINE(5ldDAuEePlYkpPlCqoGuTFTjxGo5A1GC7zuRCdBDCfR)
 #ningxue.login(qr=True)
 ningxue.login(token='需要自己輸入，別把引號刪了')
 ningxue.loginResult()
-print "=====成功登入凝雪Line半垢====="
+print "=====成功登入☪️冥♉️王☪️BOT_伺服器====="
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -49,14 +49,14 @@ selfMessage ="""
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
 ╠═══════════════
-║         ღ 凝雪半垢 ღ
-║ ✡ https://www.youtube.com/channel/UCxaaoIPO9VdAkW5EHJepbGQ✡
+║         ☪️冥♉️王☪️
+║        ＢＯＴ＿伺服器
 ╚═══════════════
 """
 
 botMessage ="""
 ╔═══════════════
-║       ♓ 半垢機設定 ♓
+║       ♓ 設定 ♓
 ╠═══════════════
 ╠➩〘Absen〙
 ╠➩〘Respon〙
@@ -67,10 +67,10 @@ botMessage ="""
 ╠➩〘Mybio (Text)〙
 ╠➩〘Myname (Text)〙
 ╠➩〘@bye〙
-╠➩〘Bot on/off [半垢開/關]〙
+╠➩〘Bot on/off [開/關]〙
 ╠═══════════════
-║         ღ 凝雪半垢 ღ
-║ ✡ https://www.youtube.com/channel/UCxaaoIPO9VdAkW5EHJepbGQ✡
+║         ☪️冥♉️王☪️
+║        ＢＯＴ＿伺服器
 ╚═══════════════
 """
 
@@ -108,8 +108,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═══════════════
-║         ღ 凝雪半垢 ღ
-║ ✡ https://www.youtube.com/channel/UCxaaoIPO9VdAkW5EHJepbGQ✡
+║          ☪️冥♉️王☪️
+║        ＢＯＴ＿伺服器
 ╚═══════════════
 """
 
@@ -143,8 +143,8 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═══════════════
-║         ღ 凝雪半垢 ღ
-║ ✡ https://www.youtube.com/channel/UCxaaoIPO9VdAkW5EHJepbGQ✡
+║        ☪️冥♉️王☪️
+║        ＢＯＴ＿伺服器
 ╚═══════════════
 """
 vip="需要自己輸入，別把引號刪了"
@@ -162,8 +162,8 @@ setMessage ="""
 ╠➩〘Sticker on [貼圖傳送開/關]〙
 ╠➩〘Simisimi on/off [西米西米開/關]〙
 ╠═══════════════
-║         ღ 凝雪半垢 ღ
-║ ✡ https://www.youtube.com/channel/UCxaaoIPO9VdAkW5EHJepbGQ✡
+║          ☪️冥♉️王☪️
+║         ＢＯＴ＿伺服器
 ╚═══════════════
 """
 
@@ -181,8 +181,8 @@ creatorMessage ="""
 ╠➩〘Bot restart [機器人重開]〙
 ╠➩〘Turn off [關機]〙
 ╠═══════════════
-║         ღ 凝雪半垢 ღ
-║ ✡ https://www.youtube.com/channel/UCxaaoIPO9VdAkW5EHJepbGQ✡
+║         ☪️冥♉️王☪️
+║         ＢＯＴ＿伺服器
 ╚═══════════════
 """
 
@@ -222,8 +222,8 @@ adminMessage ="""
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
 ╠═══════════════
-║         ღ 凝雪半垢 ღ
-║ ✡ https://www.youtube.com/channel/UCxaaoIPO9VdAkW5EHJepbGQ✡
+║         ☪️冥♉️王☪️
+║         ＢＯＴ＿伺服器
 ╚═══════════════
 """
 
@@ -243,8 +243,8 @@ helpMessage ="""
 ╠➩〘Speed test [速度測試]〙
 ╠➩〘Status [狀態]〙
 ╠═══════════════
-║         ღ 凝雪半垢 ღ
-║ ✡ https://www.youtube.com/channel/UCxaaoIPO9VdAkW5EHJepbGQ✡
+║         ☪️冥♉️王☪️
+║         ＢＯＴ＿伺服器
 ╚═══════════════
 """
 
