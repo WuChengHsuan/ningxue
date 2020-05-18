@@ -12,7 +12,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 ningxue = LINETCR.LINE()
 #ningxue.login(qr=True)
-ningxue.login(token='需要自己輸入，別把引號刪了')
+ningxue.login(token='5ldDAuEePlYkpPlCqoGuTFTjxGo5A1GC7zuRCdBDCfR')
 ningxue.loginResult()
 print "=====成功登入凝雪Line半垢====="
 
